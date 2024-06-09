@@ -17,7 +17,7 @@ function search() {
 
     if (searchBarValue.toLowerCase() === "see code") {
         go("github.com/devsujay19/google-search-clone", "blank");
-        setTimeout(go("google.vercel.app", "self"), 0);
+        setTimeout(go("gscapp.vercel.app", "self"), 0);
         return; // Exit the function after redirect
     };
 
